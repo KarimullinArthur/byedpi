@@ -17,6 +17,6 @@ jobs:
       run: make
 
     - uses: actions/upload-artifact@v4
-    with:
-      name: my-artifact
-      path: ./ciadpi
+      with:
+        name: Linux artifact upload  
+        path: ciadpi
