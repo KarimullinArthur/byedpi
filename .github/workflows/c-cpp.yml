@@ -15,3 +15,8 @@ jobs:
     - uses: actions/checkout@v4
     - name: make
       run: make
+
+    - uses: actions/upload-artifact@v4
+    with:
+      name: my-artifact
+      path: ./ciadpi
